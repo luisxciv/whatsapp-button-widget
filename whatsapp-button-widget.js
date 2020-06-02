@@ -66,8 +66,7 @@ class LeadsalesWhatsAppBtn {
         poweredByButton.innerText = 'Powered by Leadsales'
         root.appendChild(poweredByButton)
 
-        button.setAttribute('style', `background:${this.backgroundColor}`)
-        button.setAttribute('style', `color:${this.textColor}`)
+        button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor}`)
 
 
 
