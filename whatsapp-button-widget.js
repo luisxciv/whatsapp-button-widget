@@ -43,7 +43,6 @@ class LeadsalesWhatsAppBtn {
 
         let button = document.createElement('button')
         button.setAttribute('class', 'leadsales-whatsapp__button')
-        button.setAttribute('style', `color:${this.textColor}`)
 
         button_root.appendChild(button)
 
@@ -68,6 +67,8 @@ class LeadsalesWhatsAppBtn {
         root.appendChild(poweredByButton)
 
         button.setAttribute('style', `background:${this.backgroundColor}`)
+        button.setAttribute('style', `color:${this.textColor}`)
+
 
 
     }
