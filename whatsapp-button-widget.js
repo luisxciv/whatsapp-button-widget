@@ -7,8 +7,9 @@ class LeadsalesWhatsAppBtn {
         this.backgroundColor = backgroundColor
         this.callTo = callTo
         this.textColor = textColor
-        console.log(this.backgroundColor)
+        //console.log(this.backgroundColor)
     }
+    //
 
     renderButton() {
         let fontAwesome = document.createElement('script')
@@ -21,7 +22,7 @@ class LeadsalesWhatsAppBtn {
         document.body.appendChild(roboto)
 
         let styles = document.createElement('link')
-        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@1.1/whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.1/whatsapp-button-widget.css')
 
         styles.setAttribute('rel', 'stylesheet')
         styles.setAttribute('type', 'text/css')
