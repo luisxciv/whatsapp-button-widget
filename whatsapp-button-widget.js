@@ -22,12 +22,12 @@ class LeadsalesWhatsAppBtn {
         document.body.appendChild(roboto)
 
         let styles = document.createElement('link')
-        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.9/whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.10/whatsapp-button-widget.css')
 
         styles.setAttribute('rel', 'stylesheet')
         styles.setAttribute('type', 'text/css')
         styles.setAttribute('style', `background:${this.backgroundColor}`)
-
+        //
         document.body.appendChild(styles)
 
         let root = document.createElement('div')
