@@ -22,7 +22,7 @@ class LeadsalesWhatsAppBtn {
         document.body.appendChild(roboto)
 
         let styles = document.createElement('link')
-        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.5/whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.6/whatsapp-button-widget.css')
 
         styles.setAttribute('rel', 'stylesheet')
         styles.setAttribute('type', 'text/css')
@@ -66,7 +66,7 @@ class LeadsalesWhatsAppBtn {
         poweredByButton.innerText = 'Powered by Leadsales'
         root.appendChild(poweredByButton)
 
-        button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor}`)
+        button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor};z-index:99;text-align:center; flex-direction: column; display: flex; align-items:center `)
 
 
 
