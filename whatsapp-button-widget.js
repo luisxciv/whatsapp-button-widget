@@ -32,7 +32,7 @@ class LeadsalesWhatsAppBtn {
 
         let root = document.createElement('div')
         root.className = 'WhatsAppButton__root'
-        root.setAttribute('style', 'position: fixed; bottom: 10px; right: 20px; z-index:99; text-align: center')
+        root.setAttribute('style', 'position: fixed; bottom: 10px; right: 20px; z-index:99; text-align: center; margin: auto')
         document.body.appendChild(root);
 
         let button_root = document.createElement('a')
