@@ -7,7 +7,7 @@ class LeadsalesWhatsAppBtn {
         this.backgroundColor = backgroundColor
         this.callTo = callTo
         this.textColor = textColor
-        this.posiition = position
+        this.position = position
         //console.log(this.backgroundColor)
     }
     //
