@@ -71,7 +71,7 @@ class LeadsalesWhatsAppBtn {
         poweredByButton.setAttribute('class', 'whatsapp__poweredBy')
         poweredByButton.setAttribute('target', '_blank')
         poweredByButton.innerText = 'Powered by Leadsales'
-        root.appendChild(poweredByButton)
+        //root.appendChild(poweredByButton)
 
         button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor};z-index:99;text-align:center; display: flex; align-items:center`)
 
