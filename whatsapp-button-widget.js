@@ -16,7 +16,7 @@ class LeadsalesWhatsAppBtn {
 
 
         let styles = document.createElement('link')
-        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.1/whatsapp-button-widget.css')
         //styles.setAttribute('href', './whatsapp-button-widget.css')
 
         styles.setAttribute('rel', 'stylesheet')
@@ -49,7 +49,7 @@ class LeadsalesWhatsAppBtn {
 
 
         let waicon = document.createElement("img")
-        waicon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/img/logo.png'
+        waicon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.1img/logo.png'
         waicon.setAttribute('style', 'margin-right    : 10px')
 
         button.appendChild(waicon)
@@ -67,7 +67,7 @@ class LeadsalesWhatsAppBtn {
 
         let poweredByButton = document.createElement('a')
         let logo = document.createElement('img')
-        logo.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/img/ls.png'
+        logo.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.1/img/ls.png'
         poweredByButton.setAttribute('href', 'https://leadsales.mx')
         poweredByButton.setAttribute('class', 'whatsapp__poweredBy')
         poweredByButton.setAttribute('target', '_blank')
