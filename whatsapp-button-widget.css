@@ -38,7 +38,7 @@ WhatsAppButton__root {
     font-family: DM Sans;
     transition: all ease-in-out 100ms;
     position: relative;
-    right: -30px;
+    right: -70px;
 }
 
 .whatsapp__poweredBy:hover {

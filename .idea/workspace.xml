@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4036d07-541a-481d-8aff-3a842c0c1437" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/widget.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatsapp-button-widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-button-widget.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-button-widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-button-widget.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,14 +37,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="30" />
+          <entry key="css" value="31" />
           <entry key="html" value="46" />
           <entry key="js" value="224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="30" />
+          <entry key="CSS" value="31" />
           <entry key="HTML" value="46" />
           <entry key="JavaScript" value="224" />
         </counts>
@@ -61,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/whatsapp-button-widget.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="450">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -185,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617902508294</updated>
-      <workItem from="1617902509655" duration="2251000" />
+      <workItem from="1617902509655" duration="2349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2251000" />
+    <option name="totallyTimeSpent" value="2349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -238,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/whatsapp-button-widget.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="450">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
