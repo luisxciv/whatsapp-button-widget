@@ -13,17 +13,11 @@ class LeadsalesWhatsAppBtn {
     //
 
     renderButton() {
-        let fontAwesome = document.createElement('script')
-        fontAwesome.setAttribute('src', 'https://kit.fontawesome.com/2640aa91b4.js')
-        document.body.appendChild(fontAwesome)
 
-        let roboto = document.createElement('link')
-        roboto.setAttribute('href', 'https://fonts.googleapis.com/css?family=Roboto&display=swap')
-        roboto.setAttribute('rel', 'stylesheet')
-        document.body.appendChild(roboto)
 
         let styles = document.createElement('link')
-        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@2.12/whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/whatsapp-button-widget.css')
+        //styles.setAttribute('href', './whatsapp-button-widget.css')
 
         styles.setAttribute('rel', 'stylesheet')
         styles.setAttribute('type', 'text/css')
@@ -54,6 +48,11 @@ class LeadsalesWhatsAppBtn {
         button_root.appendChild(button)
 
 
+        let waicon = document.createElement("img")
+        waicon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/img/logo.png'
+        waicon.setAttribute('style', 'margin-right    : 10px')
+
+        button.appendChild(waicon)
 
         let button_text = document.createElement('p')
         button_text.setAttribute('style', 'margin: 0')
@@ -64,14 +63,17 @@ class LeadsalesWhatsAppBtn {
         whatsappIcon.setAttribute('class', 'fab fa-whatsapp')
 
         whatsappIcon.setAttribute('style', 'font-size: 24px; margin-left    : 5px')
-        button.appendChild(whatsappIcon)
+        //button.appendChild(whatsappIcon)
 
         let poweredByButton = document.createElement('a')
+        let logo = document.createElement('img')
+        logo.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@3.0/img/ls.png'
         poweredByButton.setAttribute('href', 'https://leadsales.mx')
         poweredByButton.setAttribute('class', 'whatsapp__poweredBy')
         poweredByButton.setAttribute('target', '_blank')
-        poweredByButton.innerText = 'Powered by Leadsales'
-        //root.appendChild(poweredByButton)
+        poweredByButton.innerText = 'Powered by '
+        poweredByButton.appendChild(logo)
+        root.appendChild(poweredByButton)
 
         button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor};z-index:99;text-align:center; display: flex; align-items:center`)
 
