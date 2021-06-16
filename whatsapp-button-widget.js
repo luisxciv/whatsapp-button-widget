@@ -71,8 +71,12 @@ class LeadsalesWhatsAppBtn {
         poweredByButton.setAttribute('href', 'https://leadsales.mx')
         poweredByButton.setAttribute('class', 'whatsapp__poweredBy')
         poweredByButton.setAttribute('target', '_blank')
+<<<<<<< HEAD
         poweredByButton.innerText = 'Powered by '
         poweredByButton.appendChild(logo)
+=======
+        poweredByButton.innerText = 'Powered by Leadsales'
+>>>>>>> parent of 0db17e9... 2.14
         root.appendChild(poweredByButton)
 
         button.setAttribute('style', `background:${this.backgroundColor};color:${this.textColor};z-index:99;text-align:center; display: flex; align-items:center`)
