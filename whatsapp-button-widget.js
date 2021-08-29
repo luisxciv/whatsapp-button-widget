@@ -14,9 +14,8 @@ class chattingWhatsAppBtn {
     }
     //
 
-    renderMainButton() {
+    renderButton() {
         let callTo = this.callTo
-        let dialcode = this.contact.dialcode
         let phone = this.contact.phone
         let meLink = this.contact.meLink
         let instagram = this.contact.instagram
@@ -28,7 +27,7 @@ class chattingWhatsAppBtn {
         let options = this.channels
         let shape = this.shape
         let styles = document.createElement('link')
-        styles.setAttribute('href', './whatsapp-button-widget.css')
+        styles.setAttribute('href', 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/whatsapp-button-widget.css')
         styles.setAttribute('rel', 'stylesheet')
         styles.setAttribute('type', 'text/css')
         styles.setAttribute('style', `background:${this.backgroundColor}`)
@@ -125,7 +124,7 @@ class chattingWhatsAppBtn {
                         case "whatsapp":
                         let new_whatsapp_button_root = document.createElement('a')
                         new_whatsapp_button_root.setAttribute('id', 'channel')
-                        new_whatsapp_button_root.setAttribute('href', `https://api.whatsapp.com/send?phone=${dialcode}${phone}&text=${text}`)
+                        new_whatsapp_button_root.setAttribute('href', `https://api.whatsapp.com/send?phone=${phone}&text=${text}`)
                         new_whatsapp_button_root.setAttribute('target', '_blank')
 
                         let whats_icon = document.createElement("img")
@@ -134,7 +133,7 @@ class chattingWhatsAppBtn {
 
                         new_button.setAttribute('class', 'chatting-whatsapp__button')
                         new_button.setAttribute('style', `z-index:99;text-align:center; display: flex; align-items:center`)
-                        whats_icon.src = './img/whatsapp.svg'
+                        whats_icon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/img/whatsapp.svg'
                         whats_icon.setAttribute('style', 'height : 35px')
                         new_button.setAttribute('style', `background-color: #0bd561`)
                   
@@ -156,7 +155,7 @@ class chattingWhatsAppBtn {
                         var new_button = document.createElement('button')
                         new_button.setAttribute('class', 'chatting-whatsapp__button')
                         new_button.setAttribute('style', `z-index:99;text-align:center; display: flex; align-items:center`)
-                        msn_icon.src = './img/messenger.png'
+                        msn_icon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/img/messenger.png'
                         msn_icon.setAttribute('style', 'height : 25px')
                         new_button.setAttribute('style', `background-color: white`)
                        
@@ -169,14 +168,14 @@ class chattingWhatsAppBtn {
                         case "instagram":
                         let new_instragram_button_root = document.createElement('a')
                         new_instragram_button_root.setAttribute('id', 'channel')
-                        new_instragram_button_root.setAttribute('href', instagram)
+                        new_instragram_button_root.setAttribute('href', `https://instagram.com/${instagram}`)
                         new_instragram_button_root.setAttribute('target', '_blank')
                         let insta_icon = document.createElement("img")
 
                         var new_button = document.createElement('button')
                         new_button.setAttribute('class', 'chatting-whatsapp__button')
                         new_button.setAttribute('style', `z-index:99;text-align:center; display: flex; align-items:center`)
-                        insta_icon.src = './img/instragram.svg'
+                        insta_icon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/img/instragram.svg'
                         insta_icon.setAttribute('style', 'height : 40px')
                         new_button.setAttribute('style', `background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);`)
                       
@@ -189,14 +188,14 @@ class chattingWhatsAppBtn {
                         case "telegram":
                         let new_telegram_button_root = document.createElement('a')
                         new_telegram_button_root.setAttribute('id', 'channel')
-                        new_telegram_button_root.setAttribute('href', telegram)
+                        new_telegram_button_root.setAttribute('href', `https://telegram.com/${telegram}`)
                         new_telegram_button_root.setAttribute('target', '_blank')
                         let tele_icon = document.createElement("img")
 
                         var new_button = document.createElement('button')
                         new_button.setAttribute('class', 'chatting-whatsapp__button')
                         new_button.setAttribute('style', `z-index:99;text-align:center; display: flex; align-items:center`)
-                        tele_icon.src = './img/telegram.svg'
+                        tele_icon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/img/telegram.svg'
                         tele_icon.setAttribute('style', 'height : 35px')
                         new_button.setAttribute('style', `background-image: linear-gradient(-203deg, #37AEE2 13%, #1E96C8 76%)`)
                       
@@ -216,7 +215,7 @@ class chattingWhatsAppBtn {
                         var new_button = document.createElement('button')
                         new_button.setAttribute('class', 'chatting-whatsapp__button')
                         new_button.setAttribute('style', `z-index:99;text-align:center; display: flex; align-items:center`)
-                        email_icon.src = './img/email.png'
+                        email_icon.src = 'https://cdn.jsdelivr.net/gh/luisxciv/whatsapp-button-widget@4.0/img/email.png'
                         email_icon.setAttribute('style', 'height : 20px')
                         new_button.setAttribute('style', `background-color: white`)  
                         new_button.appendChild(email_icon)
