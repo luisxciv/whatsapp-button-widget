@@ -69,9 +69,9 @@
     box-shadow: 0 0px 3px rgba(0, 0, 0, 0.14);
 
     bottom: 23px; 
-    height: 20px;
+    height: 35px;
     padding: 5px 10px; 
-    font-family: DM Sans;
+    font-family: inherit;
     transition: all ease-in-out 100ms;
     position: fixed;
     
